@@ -3,6 +3,7 @@ import re
 from sqlalchemy import false
 print('password msut contain 8-20 Letters( Uppercase , Lowercase )and Number')
 password = input('enter your password:')
+print()
 factor = True
 
 while factor == True:
